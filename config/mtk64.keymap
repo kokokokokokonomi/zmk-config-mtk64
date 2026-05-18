@@ -45,17 +45,17 @@
         compatible = "zmk,combos";
 
         leftClick {
-            bindings = <&mkp MB1>;
-            key-positions = <31 31 32>;
+            bindings = <&mkp LCLK>;
+            key-positions = <31 32>;
         };
 
         rightClick {
-            bindings = <&mkp MB2>;
+            bindings = <&mkp RCLK>;
             key-positions = <32 33>;
         };
 
         middleClick {
-            bindings = <&mkp MB3>;
+            bindings = <&mkp MCLK>;
             key-positions = <31 33>;
         };
     };
